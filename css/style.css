@@ -370,8 +370,8 @@ body {
   }
 
   .slider-info_text {
-    line-clamp: 5;
-    -webkit-line-clamp: 5;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
   }
 
   .slider-images {
