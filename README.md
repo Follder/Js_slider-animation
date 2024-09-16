@@ -7,6 +7,7 @@ For Demo this project you can use [DEMO LINK](https://follder.github.io/Js_slide
 
 Find the "data" array to customize your slider. You can change each slide's image, description and page links ("read more" and "trigger button") for each slide individually. You can also add as many slides as you want (just add new objects to the current array "data")
 
+  ```javascript
   const data = [
     {
       id: 1,
@@ -23,7 +24,8 @@ Find the "data" array to customize your slider. You can change each slide's imag
       triggerBtn: 'The second slide button link url',
     },
     {...}
-  ] 
+  ]
+  ```
 
 You can adjust the autoplay time by changing the variable "AUTO_PLAY_DELAY"
 
