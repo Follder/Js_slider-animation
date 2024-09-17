@@ -27,7 +27,8 @@ Find the "data" array to customize your slider. You can change each slide's imag
   ]
   ```
 
-You can adjust the autoplay time by changing the variable "AUTO_PLAY_DELAY"
+You can adjust the autoplay time by changing the variable "AUTO_PLAY_DELAY".
+But if you change the slides yourself, the autoplay will be stopped.
 
 You can add pictures of different sizes. And if the description is too long, it can be trim.
 

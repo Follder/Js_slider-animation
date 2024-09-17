@@ -229,6 +229,8 @@ window.addEventListener("DOMContentLoaded", () => {
         gsap.to(arrowRight, { scale: 1 });
       },
     });
+
+    stopAutoPlay();
   });
 
   arrowLeft.addEventListener("click", () => {
@@ -240,7 +242,7 @@ window.addEventListener("DOMContentLoaded", () => {
         gsap.to(arrowLeft, { scale: 1 });
       },
     });
-  });
 
-  navbar.addEventListener("click", stopAutoPlay);
+    stopAutoPlay();
+  });
 });
